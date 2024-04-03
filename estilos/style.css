@@ -28,9 +28,12 @@ section#login {
     height: 500px;
     border-radius: 13px;
     overflow: hidden;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.534);
+    box-shadow: 2px 2px 10px ;
+    transition: width 1s, height .3s;
+    transition-timing-function: ease;
 }
 section#login > div#imagem {
+    display: block;
     background: black url('../imagens/predio.jpg');
     height: 200px;
     background-size:cover;
